@@ -53,7 +53,7 @@ Nodemon
 
 Clone o repositório:
 
-	git clone https://github.com/Matheus-TecDev/DTI-Back.git
+	git clone https://github.com/Matheus-TecDev/App-Tabela7-Backend.git
 
 
 Acesse a pasta do projeto:
