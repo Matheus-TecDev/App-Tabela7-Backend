@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 
 app.get("/aquisicoes", async (req, res) => {
   const query = `
-    SELECT  
+   SELECT  
         T1.CD_AQUISICAO, 
         T1.NM_COR, 
         CONCAT(SUBSTRING(T1.NM_ANO, 1, 4), '-', SUBSTRING(T1.NM_ANO, 5, 4)) AS NM_ANO,  
@@ -27,6 +27,7 @@ app.get("/aquisicoes", async (req, res) => {
         T1.NM_KILOMETRO, 
         T1.NR_PLACA, 
         T2.NM_MODELO, 
+        T1.TP_ESTOQUE, 
         T1.TP_SITUACAO, 
         T1.TP_BLINDADO 
     FROM AQUISICAO T1
@@ -34,6 +35,7 @@ app.get("/aquisicoes", async (req, res) => {
     LEFT JOIN TRANSACAO T3 ON T1.CD_TRANSACAO = T3.CD_TRANSACAO
     LEFT JOIN LOCAL T4 ON T1.CD_LOCAL = T4.CD_LOCAL
     WHERE T1.TP_SITUACAO IN (1, 7, 8) 
+    AND T3.TP_CONSFUNC = 0 
     ORDER BY T2.NM_MODELO;
   `;
 
