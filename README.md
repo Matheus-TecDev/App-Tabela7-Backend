@@ -18,7 +18,7 @@ Atualmente está em Node.js com JavaScript, garantindo agilidade no desenvolvime
 - [Frontend (Aplicativo no Expo)](https://github.com/Matheus-TecDev/App-Tabela7-Frontend.git)
 
 ---
-##⚡ Funcionalidades
+## ⚡ Funcionalidades
 
 Endpoints REST para manipulação de dados de veículos.
 
