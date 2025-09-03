@@ -60,22 +60,22 @@ Nodemon
 
 Clone o repositório:
 
-	```bash
+
 	git clone https://github.com/Matheus-TecDev/DTI-Back.git
 
 Acesse a pasta do projeto:
 	
-	```bash
+
 	cd backend
 
 Instale as dependências:
 
-	```bash
+
 	npm install
 
 Rode o servidor localmente:
 
-	```bash
+
 	npm run dev
 
 
