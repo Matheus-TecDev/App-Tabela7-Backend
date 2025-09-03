@@ -11,6 +11,13 @@ Atualmente está em Node.js com JavaScript, garantindo agilidade no desenvolvime
 
 ---
 
+## 🔗 Repositórios Relacionados
+
+- [Backend (este repositório)](https://github.com/Matheus-TecDev/Seven-Motors-Backend.git)
+- [Frontend (Site em Vite)](https://github.com/Matheus-TecDev/Site-Tabela7-SevenMotors.git)
+- [Frontend (Aplicativo no Expo)](https://github.com/Matheus-TecDev/App-Tabela7-Frontend.git)
+
+---
 ##⚡ Funcionalidades
 
 Endpoints REST para manipulação de dados de veículos.
